@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Joke: Codable {
+    var id: Int = 0
+    var type: String = ""
+    var setup: String = ""
+    var punchline: String = ""
+}
